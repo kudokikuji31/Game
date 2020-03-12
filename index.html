@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <script src="boxfunc.js"></script>
+        <link rel="stylesheet" type="text/css" href="game.css">
+
+    </head>
+    <body>
+            <div id="topbar">
+                <a href="index1.html" >
+                    Home
+                </a >
+                <a href="work.html" id="proj" onclick="pageSelect(2)">
+                    project
+                </a>
+                <a href="assignment.html" id="assig" onclick="pageSelect(3)">
+                    Assignment
+                </a>
+                <a href="contact.html" id="cont" onclick="pageSelect(4)">
+                    Contact
+                </a>
+            </div>
+            <div id="content">
+            </div>
+        <fieldset id="para">
+            <legend id="paratag">Parameter</legend>
+            <label for="numbox" id="numboxtag">How Many Boxes Do You Want?:</label><br>
+            <input type="number" id="numbox"><br>
+            <button class="button" style="vertical-align:middle" onclick="gameON()"><span>LET'S GO!</span></button>
+            <span id="timerDis">GET READY!</span>
+        </fieldset>
+    </body>
+</html>
